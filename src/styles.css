@@ -1,0 +1,72 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-color:rgba(0, 0, 0, 0.87)!important;
+    color: white!important;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.icon{
+    font-size: 180%!important; 
+    vertical-align: middle; 
+    margin-left: 0.5em;
+}
+
+.icon:hover{
+    box-shadow: 0 0 .3em .1em #007bff;
+    cursor: pointer;
+}
+
+a{
+    color: white!important;
+    font-weight: bold!important;
+}
+a:hover{
+    color: red!important;
+}
+
+.navbar-toggler{
+    padding: 0.2em 0.3em!important;
+    /* color: white!important; */
+    background-color: white!important;
+    /* border-radius: 0.1em; */
+    /* border: 1px solid white; */ 
+}
+
+.active{
+    color: red!important;
+}
+
+.container{
+    margin-top: 2%; 
+    /* color:white;  */
+    padding: 2%;
+}
+
+#mainNavBar{
+    top: 0;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(0, 0, 0)!important;
+    box-shadow: 0 0 .5em white!important;
+    z-index: 99;
+}
+
+.box{
+    border-radius: 1em; 
+    border: 1px solid white;
+    padding: 1em; 
+    background-color: black; 
+    box-shadow: 0em 0em 1em white;
+}
+
+.progress-bar{
+    width: 15em;
+}
+
+.progress{
+    width: 15em;
+    float: right;
+}
